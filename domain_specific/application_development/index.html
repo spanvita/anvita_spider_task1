@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Disc Battle 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="p1">GOLDEN EXCALIBUR</h2>
+    <h2 id="p2">RUBY SABER</h2>
+    <div id="div1">
+    <button class="a" id="b1">1
+        <button class="a" id="b2">2
+            <button class="a" id="b3">3
+                <button class="a" id="b4">4
+                    <button class="a" id="b5">5
+                        <button class="a" id="b6">6
+                            <button class="a" id="b7">7</button>
+                        </button>
+                    </button>
+                </button>
+            </button>
+        </button>
+    </button>
+    
+    </div>
+    <h2 id="gold">PLACE</h2>
+    <div id="div2">
+    <button class="b" id="c1">1
+        <button class="b" id="c2">2
+            <button class="b" id="c3">3
+                <button class="b" id="c4">4
+                    <button class="b" id="c5">5
+                        <button class="b" id="c6">6
+                            <button class="b" id="c7">7</button>
+                        </button>
+                    </button>
+                </button>
+            </button>
+        </button>
+    </button>
+    
+    </div>
+    <h2 id="ruby">WAIT</h2>
+    <h1 id="winner"></h1>
+    <div id="timer_gold_div"><h1 id="timer_gold">2:00</h1></div>
+    
+    <div id="timer_ruby_div"><h1 id="timer_ruby">2:00</h1></div>
+
+    <button id="extra_time_gold">Extra Time (+20s)</button>
+    <button id="time_thief_gold">Time Thief (-10s)</button>
+    <button id="another_move_gold">Another Move</button>
+    <button id="block_unblocked_gold">Block Unblocked</button>
+
+
+    <button id="extra_time_ruby">Extra Time (+20s)</button>
+    <button id="time_thief_ruby">Time Thief (-10s)</button>
+    <button id="another_move_ruby">Another Move</button>
+    <button id="block_unblocked_ruby">Block Unblocked</button>
+    
+
+    <button id="undo">UNDO</button>
+    <button id="leaderboard">LEADERBOARD</button>
+    <button id="replay">REPLAY</button>
+    <button id="sound"><image id='sound_img' src="music.png"></image></button>
+
+    <button id="bg_icon"><image id='icon' src="light_icon.jpg"></image></button>
+    <image id="bg" src="Dark_bg.jpg">
+    <canvas id="main_board"></canvas>
+
+    <div id="lead">
+    <h1 id='game'></h1>
+    <h1 id="score_gold"></h1>
+    <h1 id="score_ruby"></h1>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
